@@ -130,10 +130,9 @@ export default function Home() {
 
   return (
     <>
-    <div className="mt-[65px] w-[99vw] mb-4">
-
-    <HeroCarousel/>
-    </div>
+    <div className="relative mt-[65px] w-[99vw] mb-4 z-0">
+        <HeroCarousel />
+      </div>
     
       
 
