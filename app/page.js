@@ -130,14 +130,14 @@ export default function Home() {
 
   return (
     <>
-    <div className="relative mt-[65px] w-[99vw] mb-4 z-0">
+    <div className="relative mt-[65px]  mb-4 z-0">
         <HeroCarousel />
       </div>
     
       
 
      
-      <div className="relative max-w-7xl mx-auto px-4 py-12">
+      <div className="relative mx-auto px-4 py-12">
       {/* Background Glow */}
       {/* <div className="absolute -z-10 top-0 left-1/2 transform -translate-x-1/2 w-[800px] h-[800px] bg-gradient-to-r from-purple-500/20 via-pink-400/20 to-orange-300/20 blur-3xl rounded-full opacity-70 animate-pulse"></div> */}
 
@@ -201,7 +201,7 @@ export default function Home() {
         ))}
       </div>
     </div>
-     <div className="relative max-w-7xl mx-auto px-4 py-12">
+     <div className="relative  mx-auto px-4 py-12">
       {/* Title */}
       <div className="text-center flex-row">
         <h1 className="text-4xl md:text-5xl font-extrabold text-center text-transparent bg-clip-text bg-[#5d7afc] drop-shadow-lg">
